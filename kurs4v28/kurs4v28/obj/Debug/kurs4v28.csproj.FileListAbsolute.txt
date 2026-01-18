@@ -1,0 +1,372 @@
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\kurs4v28.exe.config
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\kurs4v28.exe
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\kurs4v28.pdb
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\EntityFramework.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\EntityFramework.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.AssemblyReference.cache
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\MainWindow.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\App.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28_MarkupCompile.cache
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28_MarkupCompile.lref
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\MainWindow.baml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28.g.resources
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28.Properties.Resources.resources
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.GenerateResource.cache
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.CoreCompileInputs.cache
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.Up2Date
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28.exe
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28.pdb
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\MaterialDesignColors.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\MaterialDesignColors.pdb
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28_Content.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\App.baml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\AdminWindow.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\AdminWindow.baml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Argon2.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Blake2.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Buffers.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Memory.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Argon2.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Blake2.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Buffers.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Memory.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\UserWindow.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\UserWindow.baml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\CreateUserWindow.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\CreateUserWindow.baml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\CreateServiceWindow.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\CreateServiceWindow.baml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\CreateClientWindow.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\CreateClientWindow.baml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\kurs4v28.exe.config
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\CreateSposobWindow.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\CreateSposobWindow.baml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\ZastavochkaWindow.g.cs
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\obj\Debug\ZastavochkaWindow.baml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\nunit.engine.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\nunit.engine.api.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\nunit.engine.core.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\testcentric.engine.metadata.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\nunit.framework.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\nunit.framework.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Castle.Core.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Moq.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Castle.Core.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Gherkin.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Collections.Immutable.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Collections.Immutable.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\BoDi.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\SpecFlow.Internal.Json.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.ValueTuple.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\BoDi.pdb
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\Gherkin.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\System.ValueTuple.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.pdb
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.xml
+C:\Users\user\c# проектики\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\nunit.engine.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\nunit.engine.api.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\nunit.engine.core.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\testcentric.engine.metadata.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\kurs4v28.exe.config
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\kurs4v28.exe
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\kurs4v28.pdb
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\BoDi.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Castle.Core.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\EntityFramework.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Gherkin.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Argon2.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Blake2.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\MaterialDesignColors.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Moq.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\nunit.framework.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\SpecFlow.Internal.Json.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Buffers.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Collections.Immutable.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Memory.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.ValueTuple.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\BoDi.pdb
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Castle.Core.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\EntityFramework.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Gherkin.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Argon2.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Blake2.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\MaterialDesignColors.pdb
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\nunit.framework.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Buffers.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Collections.Immutable.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Memory.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\System.ValueTuple.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.pdb
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.xml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.AssemblyReference.cache
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28.exe.config
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\ZastavochkaWindow.baml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\AdminWindow.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\CreateClientWindow.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\CreateServiceWindow.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\CreateSposobWindow.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\CreateUserWindow.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\MainWindow.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\UserWindow.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\ZastavochkaWindow.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\App.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28_Content.g.cs
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28_MarkupCompile.cache
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28_MarkupCompile.lref
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\App.baml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\AdminWindow.baml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\CreateClientWindow.baml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\CreateServiceWindow.baml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\CreateSposobWindow.baml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\CreateUserWindow.baml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\MainWindow.baml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\UserWindow.baml
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28.g.resources
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28.Properties.Resources.resources
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.GenerateResource.cache
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.CoreCompileInputs.cache
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.Up2Date
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28.exe
+C:\Users\user\то что надо сдать 4 курс\курсовая\kurs4v28\kurs4v28\obj\Debug\kurs4v28.pdb
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\nunit.engine.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\nunit.engine.api.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\nunit.engine.core.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\testcentric.engine.metadata.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\kurs4v28.exe.config
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\kurs4v28.exe
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\kurs4v28.pdb
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\BoDi.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Castle.Core.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\EntityFramework.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Gherkin.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Argon2.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Blake2.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\MaterialDesignColors.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Moq.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\nunit.framework.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\SpecFlow.Internal.Json.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Buffers.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Collections.Immutable.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Memory.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.ValueTuple.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\BoDi.pdb
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Castle.Core.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\EntityFramework.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Gherkin.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Argon2.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Konscious.Security.Cryptography.Blake2.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\MaterialDesignColors.pdb
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\nunit.framework.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Buffers.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Collections.Immutable.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Memory.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\System.ValueTuple.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.pdb
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.xml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.AssemblyReference.cache
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28.exe.config
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\ZastavochkaWindow.baml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\AdminWindow.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\CreateClientWindow.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\CreateServiceWindow.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\CreateSposobWindow.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\CreateUserWindow.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\MainWindow.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\UserWindow.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\ZastavochkaWindow.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\App.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28_Content.g.cs
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28_MarkupCompile.cache
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28_MarkupCompile.lref
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\App.baml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\AdminWindow.baml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\CreateClientWindow.baml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\CreateServiceWindow.baml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\CreateSposobWindow.baml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\CreateUserWindow.baml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\MainWindow.baml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\UserWindow.baml
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28.g.resources
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28.Properties.Resources.resources
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.GenerateResource.cache
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.CoreCompileInputs.cache
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28.csproj.Up2Date
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28.exe
+C:\Users\user\c# проектики\new_project_github\test1\kurs4v28\kurs4v28\obj\Debug\kurs4v28.pdb

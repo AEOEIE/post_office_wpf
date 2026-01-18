@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a91a6febb6e748968eba22bf7791ef82" Name="Diagram1">
+        <EntityTypeShape EntityType="post_officeModel.Client" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="post_officeModel.employee" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="post_officeModel.popitki_vhoda" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="post_officeModel.report" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="post_officeModel.services" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="post_officeModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="post_officeModel.Role" Width="1.5" PointX="0.75" PointY="2.25" />
+        <AssociationConnector Association="post_officeModel.FK_employee_Role" />
+        <EntityTypeShape EntityType="post_officeModel.Sposob_otpravki" Width="1.5" PointX="5.375" PointY="8.875" />
+        <EntityTypeShape EntityType="post_officeModel.post_otpravlenie" Width="1.5" PointX="8.625" PointY="7" />
+        <AssociationConnector Association="post_officeModel.FK_post_otpravlenie_Client" />
+        <AssociationConnector Association="post_officeModel.FK_post_otpravlenie_employee" />
+        <AssociationConnector Association="post_officeModel.FK_post_otpravlenie_services" />
+        <AssociationConnector Association="post_officeModel.FK_post_otpravlenie_Sposob_otpravki" />
+        <EntityTypeShape EntityType="post_officeModel.EdDelRep" Width="1.5" PointX="5.25" PointY="2.25" />
+        <AssociationConnector Association="post_officeModel.FK_EdDelRep_employee" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

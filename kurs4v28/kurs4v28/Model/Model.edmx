@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище post_officeModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Client">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" />
+          <Property Name="surname" Type="nvarchar" MaxLength="50" />
+          <Property Name="otchestvo" Type="nvarchar" MaxLength="50" />
+          <Property Name="address" Type="nvarchar" MaxLength="50" />
+          <Property Name="phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="passport_seria_number" Type="nvarchar" MaxLength="50" />
+          <Property Name="post_index" Type="nvarchar" MaxLength="50" />
+          <Property Name="kem_vidan_passport" Type="nvarchar" MaxLength="50" />
+          <Property Name="isDeleted" Type="bit" />
+        </EntityType>
+        <EntityType Name="EdDelRep">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="user_id" Type="int" Nullable="false" />
+          <Property Name="table_name" Type="nvarchar" MaxLength="500" />
+          <Property Name="date_update" Type="datetime" />
+          <Property Name="deistv_name" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="employee">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="emp_name" Type="nvarchar" MaxLength="50" />
+          <Property Name="emp_surname" Type="nvarchar" MaxLength="50" />
+          <Property Name="emp_otchestvo" Type="nvarchar" MaxLength="50" />
+          <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="password" Type="nvarchar" MaxLength="500" />
+          <Property Name="role_id" Type="int" Nullable="false" />
+          <Property Name="isDeleted" Type="bit" />
+        </EntityType>
+        <EntityType Name="popitki_vhoda">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="first_popitka" Type="datetime" />
+          <Property Name="last_popitka" Type="datetime" />
+          <Property Name="isBlocked" Type="bit" Nullable="false" />
+          <Property Name="popitka_number" Type="int" />
+          <Property Name="pc_name" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="post_otpravlenie">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="client_id" Type="int" Nullable="false" />
+          <Property Name="emp_id" Type="int" Nullable="false" />
+          <Property Name="service_id" Type="int" Nullable="false" />
+          <Property Name="weight" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="size" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="index_dostavki" Type="nvarchar" MaxLength="50" />
+          <Property Name="date_dostavki" Type="datetime" />
+          <Property Name="full_price" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="sposob_otprki_id" Type="int" Nullable="false" />
+          <Property Name="address_dostavki" Type="nvarchar" MaxLength="50" />
+          <Property Name="isDeleted" Type="bit" />
+          <Property Name="isFinished" Type="bit" />
+        </EntityType>
+        <EntityType Name="report">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="type" Type="nvarchar" MaxLength="50" />
+          <Property Name="period" Type="nvarchar" MaxLength="50" />
+          <Property Name="date" Type="date" />
+          <Property Name="dannie" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="role_name" Type="nvarchar" MaxLength="70" Nullable="false" />
+        </EntityType>
+        <EntityType Name="services">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" />
+          <Property Name="price" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="isDeleted" Type="bit" />
+        </EntityType>
+        <EntityType Name="Sposob_otpravki">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="150" />
+          <Property Name="price" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="opisanie" Type="nvarchar" MaxLength="200" />
+          <Property Name="isDeleted" Type="bit" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <Association Name="FK_EdDelRep_employee">
+          <End Role="employee" Type="Self.employee" Multiplicity="1" />
+          <End Role="EdDelRep" Type="Self.EdDelRep" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="EdDelRep">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_employee_Role">
+          <End Role="Role" Type="Self.Role" Multiplicity="1" />
+          <End Role="employee" Type="Self.employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="employee">
+              <PropertyRef Name="role_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_post_otpravlenie_Client">
+          <End Role="Client" Type="Self.Client" Multiplicity="1" />
+          <End Role="post_otpravlenie" Type="Self.post_otpravlenie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Client">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="post_otpravlenie">
+              <PropertyRef Name="client_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_post_otpravlenie_employee">
+          <End Role="employee" Type="Self.employee" Multiplicity="1" />
+          <End Role="post_otpravlenie" Type="Self.post_otpravlenie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="post_otpravlenie">
+              <PropertyRef Name="emp_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_post_otpravlenie_services">
+          <End Role="services" Type="Self.services" Multiplicity="1" />
+          <End Role="post_otpravlenie" Type="Self.post_otpravlenie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="services">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="post_otpravlenie">
+              <PropertyRef Name="service_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_post_otpravlenie_Sposob_otpravki">
+          <End Role="Sposob_otpravki" Type="Self.Sposob_otpravki" Multiplicity="1" />
+          <End Role="post_otpravlenie" Type="Self.post_otpravlenie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sposob_otpravki">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="post_otpravlenie">
+              <PropertyRef Name="sposob_otprki_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище post_officeModelContainer">
+          <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EdDelRep" EntityType="Self.EdDelRep" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="employee" EntityType="Self.employee" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="popitki_vhoda" EntityType="Self.popitki_vhoda" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="post_otpravlenie" EntityType="Self.post_otpravlenie" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="report" EntityType="Self.report" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="services" EntityType="Self.services" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sposob_otpravki" EntityType="Self.Sposob_otpravki" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_EdDelRep_employee" Association="Self.FK_EdDelRep_employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="EdDelRep" EntitySet="EdDelRep" />
+          </AssociationSet>
+          <AssociationSet Name="FK_employee_Role" Association="Self.FK_employee_Role">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="employee" EntitySet="employee" />
+          </AssociationSet>
+          <AssociationSet Name="FK_post_otpravlenie_Client" Association="Self.FK_post_otpravlenie_Client">
+            <End Role="Client" EntitySet="Client" />
+            <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+          </AssociationSet>
+          <AssociationSet Name="FK_post_otpravlenie_employee" Association="Self.FK_post_otpravlenie_employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+          </AssociationSet>
+          <AssociationSet Name="FK_post_otpravlenie_services" Association="Self.FK_post_otpravlenie_services">
+            <End Role="services" EntitySet="services" />
+            <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+          </AssociationSet>
+          <AssociationSet Name="FK_post_otpravlenie_Sposob_otpravki" Association="Self.FK_post_otpravlenie_Sposob_otpravki">
+            <End Role="Sposob_otpravki" EntitySet="Sposob_otpravki" />
+            <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="post_officeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Client">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="passport_seria_number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="post_index" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="kem_vidan_passport" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="post_otpravlenie" Relationship="post_officeModel.FK_post_otpravlenie_Client" FromRole="Client" ToRole="post_otpravlenie" />
+          <Property Name="isDeleted" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="employee">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="emp_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="emp_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="emp_otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="role_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Role" Relationship="post_officeModel.FK_employee_Role" FromRole="employee" ToRole="Role" />
+          <NavigationProperty Name="post_otpravlenie" Relationship="post_officeModel.FK_post_otpravlenie_employee" FromRole="employee" ToRole="post_otpravlenie" />
+          <Property Name="isDeleted" Type="Boolean" />
+          <NavigationProperty Name="EdDelRep" Relationship="post_officeModel.FK_EdDelRep_employee" FromRole="employee" ToRole="EdDelRep" />
+        </EntityType>
+        <EntityType Name="popitki_vhoda">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="first_popitka" Type="DateTime" Precision="3" />
+          <Property Name="last_popitka" Type="DateTime" Precision="3" />
+          <Property Name="isBlocked" Type="Boolean" Nullable="false" />
+          <Property Name="popitka_number" Type="Int32" />
+          <Property Name="pc_name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="report">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="period" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="date" Type="DateTime" Precision="0" />
+          <Property Name="dannie" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="services">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="price" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="post_otpravlenie" Relationship="post_officeModel.FK_post_otpravlenie_services" FromRole="services" ToRole="post_otpravlenie" />
+          <Property Name="isDeleted" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityContainer Name="post_officeEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Client" EntityType="Self.Client" />
+          <EntitySet Name="employee" EntityType="Self.employee" />
+          <EntitySet Name="popitki_vhoda" EntityType="Self.popitki_vhoda" />
+          <EntitySet Name="report" EntityType="Self.report" />
+          <EntitySet Name="services" EntityType="Self.services" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="Role" EntityType="post_officeModel.Role" />
+          <AssociationSet Name="FK_employee_Role" Association="post_officeModel.FK_employee_Role">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="employee" EntitySet="employee" />
+          </AssociationSet>
+          <EntitySet Name="Sposob_otpravki" EntityType="post_officeModel.Sposob_otpravki" />
+          <EntitySet Name="post_otpravlenie" EntityType="post_officeModel.post_otpravlenie" />
+          <AssociationSet Name="FK_post_otpravlenie_Client" Association="post_officeModel.FK_post_otpravlenie_Client">
+            <End Role="Client" EntitySet="Client" />
+            <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+          </AssociationSet>
+          <AssociationSet Name="FK_post_otpravlenie_employee" Association="post_officeModel.FK_post_otpravlenie_employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+          </AssociationSet>
+          <AssociationSet Name="FK_post_otpravlenie_services" Association="post_officeModel.FK_post_otpravlenie_services">
+            <End Role="services" EntitySet="services" />
+            <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+          </AssociationSet>
+          <AssociationSet Name="FK_post_otpravlenie_Sposob_otpravki" Association="post_officeModel.FK_post_otpravlenie_Sposob_otpravki">
+            <End Role="Sposob_otpravki" EntitySet="Sposob_otpravki" />
+            <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+          </AssociationSet>
+          <EntitySet Name="EdDelRep" EntityType="post_officeModel.EdDelRep" />
+          <AssociationSet Name="FK_EdDelRep_employee" Association="post_officeModel.FK_EdDelRep_employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="EdDelRep" EntitySet="EdDelRep" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="role_name" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="employee" Relationship="post_officeModel.FK_employee_Role" FromRole="Role" ToRole="employee" />
+        </EntityType>
+        <Association Name="FK_employee_Role">
+          <End Type="post_officeModel.Role" Role="Role" Multiplicity="1" />
+          <End Type="post_officeModel.employee" Role="employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="employee">
+              <PropertyRef Name="role_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Sposob_otpravki">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="price" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="opisanie" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="post_otpravlenie" Relationship="post_officeModel.FK_post_otpravlenie_Sposob_otpravki" FromRole="Sposob_otpravki" ToRole="post_otpravlenie" />
+          <Property Name="isDeleted" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="post_otpravlenie">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="client_id" Type="Int32" Nullable="false" />
+          <Property Name="emp_id" Type="Int32" Nullable="false" />
+          <Property Name="service_id" Type="Int32" Nullable="false" />
+          <Property Name="weight" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="size" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="index_dostavki" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="date_dostavki" Type="DateTime" Precision="3" />
+          <Property Name="full_price" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="sposob_otprki_id" Type="Int32" Nullable="false" />
+          <Property Name="address_dostavki" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Client" Relationship="post_officeModel.FK_post_otpravlenie_Client" FromRole="post_otpravlenie" ToRole="Client" />
+          <NavigationProperty Name="employee" Relationship="post_officeModel.FK_post_otpravlenie_employee" FromRole="post_otpravlenie" ToRole="employee" />
+          <NavigationProperty Name="services" Relationship="post_officeModel.FK_post_otpravlenie_services" FromRole="post_otpravlenie" ToRole="services" />
+          <NavigationProperty Name="Sposob_otpravki" Relationship="post_officeModel.FK_post_otpravlenie_Sposob_otpravki" FromRole="post_otpravlenie" ToRole="Sposob_otpravki" />
+          <Property Name="isDeleted" Type="Boolean" />
+          <Property Name="isFinished" Type="Boolean" />
+        </EntityType>
+        <Association Name="FK_post_otpravlenie_Client">
+          <End Type="post_officeModel.Client" Role="Client" Multiplicity="1" />
+          <End Type="post_officeModel.post_otpravlenie" Role="post_otpravlenie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Client">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="post_otpravlenie">
+              <PropertyRef Name="client_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_post_otpravlenie_employee">
+          <End Type="post_officeModel.employee" Role="employee" Multiplicity="1" />
+          <End Type="post_officeModel.post_otpravlenie" Role="post_otpravlenie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="post_otpravlenie">
+              <PropertyRef Name="emp_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_post_otpravlenie_services">
+          <End Type="post_officeModel.services" Role="services" Multiplicity="1" />
+          <End Type="post_officeModel.post_otpravlenie" Role="post_otpravlenie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="services">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="post_otpravlenie">
+              <PropertyRef Name="service_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_post_otpravlenie_Sposob_otpravki">
+          <End Type="post_officeModel.Sposob_otpravki" Role="Sposob_otpravki" Multiplicity="1" />
+          <End Type="post_officeModel.post_otpravlenie" Role="post_otpravlenie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sposob_otpravki">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="post_otpravlenie">
+              <PropertyRef Name="sposob_otprki_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="EdDelRep">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="user_id" Type="Int32" Nullable="false" />
+          <Property Name="table_name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="employee" Relationship="post_officeModel.FK_EdDelRep_employee" FromRole="EdDelRep" ToRole="employee" />
+          <Property Name="date_update" Type="DateTime" Precision="3" />
+          <Property Name="deistv_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_EdDelRep_employee">
+          <End Type="post_officeModel.employee" Role="employee" Multiplicity="1" />
+          <End Type="post_officeModel.EdDelRep" Role="EdDelRep" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="EdDelRep">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище post_officeModelContainer" CdmEntityContainer="post_officeEntities2">
+          <EntitySetMapping Name="Client">
+            <EntityTypeMapping TypeName="post_officeModel.Client">
+              <MappingFragment StoreEntitySet="Client">
+                <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="surname" ColumnName="surname" />
+                <ScalarProperty Name="otchestvo" ColumnName="otchestvo" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="passport_seria_number" ColumnName="passport_seria_number" />
+                <ScalarProperty Name="post_index" ColumnName="post_index" />
+                <ScalarProperty Name="kem_vidan_passport" ColumnName="kem_vidan_passport" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="employee">
+            <EntityTypeMapping TypeName="post_officeModel.employee">
+              <MappingFragment StoreEntitySet="employee">
+                <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="emp_name" ColumnName="emp_name" />
+                <ScalarProperty Name="emp_surname" ColumnName="emp_surname" />
+                <ScalarProperty Name="emp_otchestvo" ColumnName="emp_otchestvo" />
+                <ScalarProperty Name="login" ColumnName="login" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="role_id" ColumnName="role_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="popitki_vhoda">
+            <EntityTypeMapping TypeName="post_officeModel.popitki_vhoda">
+              <MappingFragment StoreEntitySet="popitki_vhoda">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="first_popitka" ColumnName="first_popitka" />
+                <ScalarProperty Name="last_popitka" ColumnName="last_popitka" />
+                <ScalarProperty Name="isBlocked" ColumnName="isBlocked" />
+                <ScalarProperty Name="popitka_number" ColumnName="popitka_number" />
+                <ScalarProperty Name="pc_name" ColumnName="pc_name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="report">
+            <EntityTypeMapping TypeName="post_officeModel.report">
+              <MappingFragment StoreEntitySet="report">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="type" ColumnName="type" />
+                <ScalarProperty Name="period" ColumnName="period" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="dannie" ColumnName="dannie" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="services">
+            <EntityTypeMapping TypeName="post_officeModel.services">
+              <MappingFragment StoreEntitySet="services">
+                <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="price" ColumnName="price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="post_officeModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Role">
+            <EntityTypeMapping TypeName="post_officeModel.Role">
+              <MappingFragment StoreEntitySet="Role">
+                <ScalarProperty Name="role_name" ColumnName="role_name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sposob_otpravki">
+            <EntityTypeMapping TypeName="post_officeModel.Sposob_otpravki">
+              <MappingFragment StoreEntitySet="Sposob_otpravki">
+                <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+                <ScalarProperty Name="opisanie" ColumnName="opisanie" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="post_otpravlenie">
+            <EntityTypeMapping TypeName="post_officeModel.post_otpravlenie">
+              <MappingFragment StoreEntitySet="post_otpravlenie">
+                <ScalarProperty Name="isFinished" ColumnName="isFinished" />
+                <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+                <ScalarProperty Name="address_dostavki" ColumnName="address_dostavki" />
+                <ScalarProperty Name="sposob_otprki_id" ColumnName="sposob_otprki_id" />
+                <ScalarProperty Name="full_price" ColumnName="full_price" />
+                <ScalarProperty Name="date_dostavki" ColumnName="date_dostavki" />
+                <ScalarProperty Name="index_dostavki" ColumnName="index_dostavki" />
+                <ScalarProperty Name="size" ColumnName="size" />
+                <ScalarProperty Name="weight" ColumnName="weight" />
+                <ScalarProperty Name="service_id" ColumnName="service_id" />
+                <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+                <ScalarProperty Name="client_id" ColumnName="client_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EdDelRep">
+            <EntityTypeMapping TypeName="post_officeModel.EdDelRep">
+              <MappingFragment StoreEntitySet="EdDelRep">
+                <ScalarProperty Name="deistv_name" ColumnName="deistv_name" />
+                <ScalarProperty Name="date_update" ColumnName="date_update" />
+                <ScalarProperty Name="table_name" ColumnName="table_name" />
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

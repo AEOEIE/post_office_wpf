@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="post_officeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="passport_seria_number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="post_index" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kem_vidan_passport" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="post_otpravlenie" Relationship="post_officeModel.FK_post_otpravlenie_Client" FromRole="Client" ToRole="post_otpravlenie" />
+    <Property Name="isDeleted" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="emp_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="emp_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="emp_otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="role_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Role" Relationship="post_officeModel.FK_employee_Role" FromRole="employee" ToRole="Role" />
+    <NavigationProperty Name="post_otpravlenie" Relationship="post_officeModel.FK_post_otpravlenie_employee" FromRole="employee" ToRole="post_otpravlenie" />
+    <Property Name="isDeleted" Type="Boolean" />
+    <NavigationProperty Name="EdDelRep" Relationship="post_officeModel.FK_EdDelRep_employee" FromRole="employee" ToRole="EdDelRep" />
+  </EntityType>
+  <EntityType Name="popitki_vhoda">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="first_popitka" Type="DateTime" Precision="3" />
+    <Property Name="last_popitka" Type="DateTime" Precision="3" />
+    <Property Name="isBlocked" Type="Boolean" Nullable="false" />
+    <Property Name="popitka_number" Type="Int32" />
+    <Property Name="pc_name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="report">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="period" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="dannie" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="services">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="post_otpravlenie" Relationship="post_officeModel.FK_post_otpravlenie_services" FromRole="services" ToRole="post_otpravlenie" />
+    <Property Name="isDeleted" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="post_officeEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Client" EntityType="Self.Client" />
+    <EntitySet Name="employee" EntityType="Self.employee" />
+    <EntitySet Name="popitki_vhoda" EntityType="Self.popitki_vhoda" />
+    <EntitySet Name="report" EntityType="Self.report" />
+    <EntitySet Name="services" EntityType="Self.services" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Role" EntityType="post_officeModel.Role" />
+    <AssociationSet Name="FK_employee_Role" Association="post_officeModel.FK_employee_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="employee" EntitySet="employee" />
+    </AssociationSet>
+    <EntitySet Name="Sposob_otpravki" EntityType="post_officeModel.Sposob_otpravki" />
+    <EntitySet Name="post_otpravlenie" EntityType="post_officeModel.post_otpravlenie" />
+    <AssociationSet Name="FK_post_otpravlenie_Client" Association="post_officeModel.FK_post_otpravlenie_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_post_otpravlenie_employee" Association="post_officeModel.FK_post_otpravlenie_employee">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_post_otpravlenie_services" Association="post_officeModel.FK_post_otpravlenie_services">
+      <End Role="services" EntitySet="services" />
+      <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_post_otpravlenie_Sposob_otpravki" Association="post_officeModel.FK_post_otpravlenie_Sposob_otpravki">
+      <End Role="Sposob_otpravki" EntitySet="Sposob_otpravki" />
+      <End Role="post_otpravlenie" EntitySet="post_otpravlenie" />
+    </AssociationSet>
+    <EntitySet Name="EdDelRep" EntityType="post_officeModel.EdDelRep" />
+    <AssociationSet Name="FK_EdDelRep_employee" Association="post_officeModel.FK_EdDelRep_employee">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="EdDelRep" EntitySet="EdDelRep" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="role_name" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="employee" Relationship="post_officeModel.FK_employee_Role" FromRole="Role" ToRole="employee" />
+  </EntityType>
+  <Association Name="FK_employee_Role">
+    <End Type="post_officeModel.Role" Role="Role" Multiplicity="1" />
+    <End Type="post_officeModel.employee" Role="employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="employee">
+        <PropertyRef Name="role_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Sposob_otpravki">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="opisanie" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="post_otpravlenie" Relationship="post_officeModel.FK_post_otpravlenie_Sposob_otpravki" FromRole="Sposob_otpravki" ToRole="post_otpravlenie" />
+    <Property Name="isDeleted" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="post_otpravlenie">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="client_id" Type="Int32" Nullable="false" />
+    <Property Name="emp_id" Type="Int32" Nullable="false" />
+    <Property Name="service_id" Type="Int32" Nullable="false" />
+    <Property Name="weight" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="size" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="index_dostavki" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="date_dostavki" Type="DateTime" Precision="3" />
+    <Property Name="full_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="sposob_otprki_id" Type="Int32" Nullable="false" />
+    <Property Name="address_dostavki" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Client" Relationship="post_officeModel.FK_post_otpravlenie_Client" FromRole="post_otpravlenie" ToRole="Client" />
+    <NavigationProperty Name="employee" Relationship="post_officeModel.FK_post_otpravlenie_employee" FromRole="post_otpravlenie" ToRole="employee" />
+    <NavigationProperty Name="services" Relationship="post_officeModel.FK_post_otpravlenie_services" FromRole="post_otpravlenie" ToRole="services" />
+    <NavigationProperty Name="Sposob_otpravki" Relationship="post_officeModel.FK_post_otpravlenie_Sposob_otpravki" FromRole="post_otpravlenie" ToRole="Sposob_otpravki" />
+    <Property Name="isDeleted" Type="Boolean" />
+    <Property Name="isFinished" Type="Boolean" />
+  </EntityType>
+  <Association Name="FK_post_otpravlenie_Client">
+    <End Type="post_officeModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="post_officeModel.post_otpravlenie" Role="post_otpravlenie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="post_otpravlenie">
+        <PropertyRef Name="client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_post_otpravlenie_employee">
+    <End Type="post_officeModel.employee" Role="employee" Multiplicity="1" />
+    <End Type="post_officeModel.post_otpravlenie" Role="post_otpravlenie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="post_otpravlenie">
+        <PropertyRef Name="emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_post_otpravlenie_services">
+    <End Type="post_officeModel.services" Role="services" Multiplicity="1" />
+    <End Type="post_officeModel.post_otpravlenie" Role="post_otpravlenie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="services">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="post_otpravlenie">
+        <PropertyRef Name="service_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_post_otpravlenie_Sposob_otpravki">
+    <End Type="post_officeModel.Sposob_otpravki" Role="Sposob_otpravki" Multiplicity="1" />
+    <End Type="post_officeModel.post_otpravlenie" Role="post_otpravlenie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sposob_otpravki">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="post_otpravlenie">
+        <PropertyRef Name="sposob_otprki_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="EdDelRep">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="table_name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="employee" Relationship="post_officeModel.FK_EdDelRep_employee" FromRole="EdDelRep" ToRole="employee" />
+    <Property Name="date_update" Type="DateTime" Precision="3" />
+    <Property Name="deistv_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_EdDelRep_employee">
+    <End Type="post_officeModel.employee" Role="employee" Multiplicity="1" />
+    <End Type="post_officeModel.EdDelRep" Role="EdDelRep" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="EdDelRep">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

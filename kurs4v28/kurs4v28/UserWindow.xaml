@@ -1,0 +1,182 @@
+﻿<Window x:Class="kurs4v28.UserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kurs4v28"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="UserWindow" Height="570" Width="900"  ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel>
+            <StackPanel>
+                <Button HorizontalAlignment="Right" Margin="0, 10, 10, 0" Click="buttonExitClick">Выйти</Button>
+                <TextBlock FontSize="30" HorizontalAlignment="Center" FontFamily="Comic Sans MS" x:Name="title_user" Margin="0,20">Пользователь</TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <TabControl SelectionChanged="TabControl_SelectionChanged">
+                    <TabItem Header="Почтовое отправление" x:Name="MainTab">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="20, 10" >
+                               
+                                
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel Margin="20, 0">
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock FontFamily="Comic Sans MS" FontSize="20" Margin="15" Width="200">Выберите клиента</TextBlock>
+                                        <ComboBox x:Name="PostClient_txt" Style="{StaticResource MaterialDesignComboBox}" Width="160 px" IsEditable="True"
+                                             IsTextSearchEnabled="True" TextSearch.TextPath="FullName" DisplayMemberPath="FullName" SelectedValuePath="id" LostFocus="PostClient_txt_LostFocus" materialDesign:HintAssist.Hint="Введите клиента"  FontSize="16" FontFamily="Comic Sans MS" />
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Margin="15"  Width="200" FontFamily="Comic Sans MS" FontSize="20">Объем заказа</TextBlock>
+                                        <TextBox x:Name="PostSize_txt" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Введите объем" Width="160 px" FontSize=" 16" FontFamily="Comic Sans MS" PreviewTextInput="PostSize_txt_PreviewTextInput" MaxLength="8"></TextBox>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Margin="15"  Width="200" FontFamily="Comic Sans MS" FontSize="20">Вес заказа</TextBlock>
+                                        <TextBox x:Name="PostWeight_txt" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Введите вес (в кг)" Width="160 px" FontSize=" 16" FontFamily="Comic Sans MS" PreviewTextInput="PostWeight_txt_PreviewTextInput" MaxLength="8"></TextBox>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Margin="15"  Width="200" FontFamily="Comic Sans MS" FontSize="20">Способ отправления</TextBlock>
+                                        <ComboBox x:Name="PostSposob_txt" Width="160 px" FontSize="16" FontFamily="Comic Sans MS" 
+                                            Style="{StaticResource MaterialDesignComboBox}" DisplayMemberPath="name" SelectedValuePath="id"  materialDesign:HintAssist.Hint="Выберите способ">
+                                            <ComboBox.ItemContainerStyle>
+                                                <Style TargetType="ComboBoxItem">
+                                                    <Setter Property="ToolTip" Value="{Binding opisanie}"/>
+                                                </Style>
+                                            </ComboBox.ItemContainerStyle>
+                                        </ComboBox>
+                                    </StackPanel>
+
+                                </StackPanel>
+                                <StackPanel Margin="30, 0">
+                                    <StackPanel Orientation="Horizontal" >
+                                        <TextBlock FontFamily="Comic Sans MS" FontSize="20" Margin="15" Width="200">Выберите услугу</TextBlock>
+                                        <ComboBox x:Name="PostService_txt" Style="{StaticResource MaterialDesignComboBox}" Width="160 px" DisplayMemberPath="name" SelectedValuePath="id"  materialDesign:HintAssist.Hint="Выберите услугу"  FontSize="16" FontFamily="Comic Sans MS" />
+
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Margin="15"  Width="200" FontFamily="Comic Sans MS" FontSize="20">Адрес доставки</TextBlock>
+                                        <TextBox x:Name="PostAddress_txt" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Введите адрес" Width="160 px" FontSize=" 16" FontFamily="Comic Sans MS" MaxLength="50"></TextBox>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Margin="15"  Width="200" FontFamily="Comic Sans MS" FontSize="20">Почтовый индекс</TextBlock>
+                                        <TextBox x:Name="PostIndex_txt" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Введите индекс" Width="160 px" FontSize=" 16" FontFamily="Comic Sans MS" PreviewTextInput="PostIndex_txt_PreviewTextInput" MaxLength="6"></TextBox>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Margin="15"  Width="200" FontFamily="Comic Sans MS" FontSize="20">Дата доставки</TextBlock>
+                                        <DatePicker x:Name="PostDate_txt" Width="160" FontSize="16" FontFamily="Comic Sans MS"
+                                            materialDesign:HintAssist.Hint="Выберите дату" SelectedDateFormat="Short" Style="{StaticResource MaterialDesignDatePicker}" VerticalContentAlignment="Center"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Height="120">
+                                <TextBlock  x:Name="ItogPrice_txt" FontFamily="Comic Sans MS" FontSize="25" Margin="40, 0, 100, 20" VerticalAlignment="Center" Width="500">Итоговая цена: </TextBlock>
+                                <Button x:Name="get_btn" Width="150" Height="40" FontSize="18" Click="buttonOformitClick">Оформить</Button>
+                            </StackPanel>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="Все отправления" x:Name="AllPostOtpr">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <ComboBox x:Name="cbSotrudnik"  Style="{StaticResource MaterialDesignComboBox}" materialDesign:HintAssist.Hint="Фильтр по сотруднику" Margin="20, 10" Width="200" IsEditable="True"
+                                             IsTextSearchEnabled="True" TextSearch.TextPath="login" DisplayMemberPath="login" SelectedValuePath="id" SelectionChanged="comboboxEmpClick"></ComboBox>
+                                <ComboBox x:Name="cbServices"  Style="{StaticResource MaterialDesignComboBox}" materialDesign:HintAssist.Hint="Фильтр по услуге" Margin="420, 10" Width="200"  IsEditable="True"
+                                             IsTextSearchEnabled="True" TextSearch.TextPath="name" DisplayMemberPath="name" SelectedValuePath="id" SelectionChanged="comboboxServClick"></ComboBox>
+                            </StackPanel>
+                            <StackPanel>
+                                <ScrollViewer HorizontalScrollBarVisibility="Visible" Margin="10"  Height="300">
+                                    <DataGrid x:Name="otprData" Width="auto" ItemsSource="{Binding}" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" FontFamily="Comic Sans MS">
+                                        <DataGrid.ContextMenu>
+                                            <ContextMenu ContextMenu="{Binding ContextMenuForServices}">
+                                                <MenuItem Header="Добавить" Click="buttonOtprAddClick" FontFamily="Comic Sans MS"/>
+                                                <MenuItem Header="Завершить" FontFamily="Comic Sans MS"></MenuItem>
+                                                <MenuItem Header="Удалить" Click="buttonOtprDeleteClick" FontFamily="Comic Sans MS" />
+                                            </ContextMenu>
+                                        </DataGrid.ContextMenu>
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Фамилия клиента" Binding="{Binding Client.surname}" Width="100"/>
+                                            <DataGridTextColumn Header="Сотрудник" Binding="{Binding employee.login}" Width="100"/>
+                                            <DataGridTextColumn Header="Услуга" Binding="{Binding services.name}" Width="100"/>
+                                            <DataGridTextColumn Header="Вес" Binding="{Binding weight}" Width="100"/>
+                                            <DataGridTextColumn Header="Объем" Binding="{Binding size}" Width="100"/>
+                                            <DataGridTextColumn Header="Индекс доставки" Binding="{Binding index_dostavki}" Width="100"/>
+                                            <DataGridTextColumn Header="Дата доставки" Binding="{Binding date_dostavki}" Width="100"/>
+                                            <DataGridTextColumn Header="Цена" Binding="{Binding full_price}" Width="100"/>
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </ScrollViewer>
+                            </StackPanel>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="Клиенты" x:Name="ClientsTab">
+                        <StackPanel>
+                            <StackPanel>
+                                <TextBox x:Name="searchClient" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Поиск клиентов"  HorizontalAlignment="Stretch" Margin="20,10"  TextChanged="searchClientTextChanged"></TextBox>
+                            </StackPanel>
+                            <StackPanel>
+                                <ScrollViewer HorizontalScrollBarVisibility="Visible" Margin="10" Height="310">
+                                    <DataGrid x:Name="clientsData" Width="auto" ItemsSource="{Binding}" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" FontFamily="Comic Sans MS">
+                                        <DataGrid.ContextMenu>
+                                            <ContextMenu ContextMenu="{Binding ContextMenuForServices}" >
+                                                <MenuItem Header="Добавить" Click="buttonAddClientClick" FontFamily="Comic Sans MS"/>
+                                                <MenuItem Header="Редактировать" Click="buttonEditClientClick" FontFamily="Comic Sans MS" />
+                                                <MenuItem Header="Удалить" Click="buttonDeleteClientClick" FontFamily="Comic Sans MS" />
+                                                <MenuItem Header="Смотреть почтовые отправления" Click="ViewOtprClick" FontFamily="Comic Sans MS" />
+                                            </ContextMenu>
+                                        </DataGrid.ContextMenu>
+                                        <DataGrid.Columns >
+                                            <DataGridTextColumn Header="Имя" Binding="{Binding name}" Width="100"/>
+                                            <DataGridTextColumn Header="Фамилия" Binding="{Binding surname}" Width="100"/>
+                                            <DataGridTextColumn Header="Отчество" Binding="{Binding otchestvo}" Width="100"/>
+                                            <DataGridTextColumn Header="Адрес" Binding="{Binding address}" Width="100"/>
+                                            <DataGridTextColumn Header="Номер телефона" Binding="{Binding phone}" Width="100"/>
+                                            <DataGridTextColumn Header="Паспорт" Binding="{Binding passport_seria_number}" Width="100"/>
+                                            <DataGridTextColumn Header="Кем выдан пасспорт" Binding="{Binding kem_vidan_passport}" Width="100"/>
+                                            <DataGridTextColumn Header="Почтовый индекс" Binding="{Binding post_index}" Width="100"/>
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </ScrollViewer>
+                            </StackPanel>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="Услуги" x:Name="ServicesTab">
+                        <StackPanel>
+                            <StackPanel>
+                                <TextBox x:Name="searchService" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Поиск услуг"  HorizontalAlignment="Stretch" Margin="20,10" TextChanged="textChangedSearch"></TextBox>
+                            </StackPanel>
+                            <StackPanel>
+                                <ScrollViewer HorizontalScrollBarVisibility="Visible" Margin="10, 0" Height="310">
+                                    <DataGrid x:Name="ServicesData" Width="auto" ItemsSource="{Binding}" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" FontFamily="Comic Sans MS">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Название услуги" Binding="{Binding name}"/>
+                                            <DataGridTextColumn Header="Цена" Binding="{Binding price}"/>
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </ScrollViewer>
+                            </StackPanel>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="Способы доставки" x:Name="SposobTab" >
+                        <StackPanel>
+                            <StackPanel>
+                                <TextBox x:Name="searchSposob" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Поиск способов доставки"  HorizontalAlignment="Stretch" Margin="20,10" TextChanged="searchSposob_TextChanged"></TextBox>
+                            </StackPanel>
+                            <StackPanel>
+                                <ScrollViewer HorizontalScrollBarVisibility="Visible" Margin="10, 0" Height="310">
+                                    <DataGrid x:Name="SposobData" Width="auto" ItemsSource="{Binding}" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" FontFamily="Comic Sans MS">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Способ" Binding="{Binding name}"/>
+                                            <DataGridTextColumn Header="Описание" Binding="{Binding opisanie}"/>
+                                            <DataGridTextColumn Header="Цена" Binding="{Binding price}"/>
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </ScrollViewer>
+                            </StackPanel>
+                        </StackPanel>
+                    </TabItem>
+                </TabControl>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

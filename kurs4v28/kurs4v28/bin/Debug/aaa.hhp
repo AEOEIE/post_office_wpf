@@ -1,0 +1,13 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=aaa.chm
+Default topic=C:\Users\user\sprav.html
+Display compile progress=Yes
+Language=0x419 Русский (Россия)
+
+
+[FILES]
+C:\Users\user\sprav.html
+
+[INFOTYPES]
+

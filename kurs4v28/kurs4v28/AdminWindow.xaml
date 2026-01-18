@@ -1,0 +1,77 @@
+﻿<Window x:Class="kurs4v28.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kurs4v28"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="AdminWindow" Height="570" Width="900"  ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel>
+            <StackPanel>
+                <StackPanel>
+                    <Button HorizontalAlignment="Right" Margin="0, 10, 10, 0" Click="buttonExitClick">Выйти</Button>
+                    <TextBlock FontSize="30" HorizontalAlignment="Center" FontFamily="Comic Sans MS" x:Name="title_user">Админ</TextBlock>
+                </StackPanel>
+                <TabControl>
+                    <TabItem x:Name="adminTab" Header="Сотрудники">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBox x:Name="loginSearch" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Поиск по логину и фамилии" Margin="20, 0" Width="646" TextChanged="loginSearchTextChamged"></TextBox>
+                                <ComboBox x:Name="empRole_txt" FontFamily="Comic Sans MS" Width="154" materialDesign:HintAssist.Hint="Выберите роль" SelectionChanged="comboboxElementClick">
+                                    <ComboBoxItem Content="Выберите роль"/>
+                                    <ComboBoxItem Content="admin" />
+                                    <ComboBoxItem Content="operator" />
+                                    <ComboBoxItem Content="service_manager" />
+                                    <ComboBoxItem Content="branch_manager" />
+                                </ComboBox>
+                            </StackPanel>
+                            <StackPanel Height="320">
+                                <ScrollViewer HorizontalScrollBarVisibility="Visible" Margin="10,0" Height="300">
+                                    <DataGrid x:Name="usersData" Width="auto" ItemsSource="{Binding}" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" FontFamily="Comic Sans MS" ContextMenuOpening="usersData_ContextMenuOpening">
+                                        <DataGrid.ContextMenu>
+                                            <ContextMenu Opened="ContextMenu_Opened">
+                                                <MenuItem Header="Добавить" Click="buttonAddUserClick" FontFamily="Comic Sans MS"/>
+                                                <MenuItem Header="Редактировать" Click="buttonEditUserClick" FontFamily="Comic Sans MS" />
+                                                <MenuItem Header="Удалить" Click="buttonDeleteUserClick" FontFamily="Comic Sans MS" />
+                                            </ContextMenu>
+                                        </DataGrid.ContextMenu>
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Имя" Binding="{Binding emp_name}" Width="100"/>
+                                            <DataGridTextColumn Header="Фамилия" Binding="{Binding emp_surname}" Width="100"/>
+                                            <DataGridTextColumn Header="Отчество" Binding="{Binding emp_otchestvo}" Width="100"/>
+                                            <DataGridTextColumn Header="login" Binding="{Binding login}" Width="100"/>
+                                            <DataGridTextColumn Header="Роль" Binding="{Binding Role.role_name}" x:Name="userRole" Width="100"/>
+                                            <DataGridTextColumn Header="Пароль" Binding="{Binding password}" x:Name="userPassword" Width="100"/>
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </ScrollViewer>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5">
+                                <Button HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="buttonAddUserClick">Добавить пользователя</Button>
+                                <Button HorizontalAlignment="Right" Style="{StaticResource MaterialDesignFlatButton}" Click="buttonDeleteUserClick">Удалить пользователя</Button>
+                            </StackPanel>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem x:Name="repTab" Header="Отчеты">
+                        <StackPanel Height="370">
+                            <ScrollViewer HorizontalScrollBarVisibility="Visible" Margin="10,0" Height="350">
+                                <DataGrid x:Name="repData" Width="auto" ItemsSource="{Binding}" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" FontFamily="Comic Sans MS">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Логин пользователя" Binding="{Binding employee.login}"/>
+                                        <DataGridTextColumn Header="Действие с данными" Binding="{Binding deistv_name}"/>
+                                        <DataGridTextColumn Header="Измененные данные" Binding="{Binding table_name}"/>
+                                        <DataGridTextColumn Header="Дата изменения" Binding="{Binding date_update}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </ScrollViewer>
+                        </StackPanel>
+                    </TabItem>
+                </TabControl>
+            </StackPanel>
+            
+        </StackPanel>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+C:\Users\user\c# проектики\kurs4v28\Testiki\obj\Debug\net4.7.2\Testiki.csproj.AssemblyReference.cache
+C:\Users\user\c# проектики\kurs4v28\Testiki\obj\Debug\net4.7.2\Testiki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\c# проектики\kurs4v28\Testiki\obj\Debug\net4.7.2\Testiki.AssemblyInfoInputs.cache
+C:\Users\user\c# проектики\kurs4v28\Testiki\obj\Debug\net4.7.2\Testiki.AssemblyInfo.cs
+C:\Users\user\c# проектики\kurs4v28\Testiki\obj\Debug\net4.7.2\Testiki.csproj.CoreCompileInputs.cache

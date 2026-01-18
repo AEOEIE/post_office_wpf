@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище post_officeModelContainer" CdmEntityContainer="post_officeEntities2">
+    <EntitySetMapping Name="Client">
+      <EntityTypeMapping TypeName="post_officeModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="otchestvo" ColumnName="otchestvo" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="passport_seria_number" ColumnName="passport_seria_number" />
+          <ScalarProperty Name="post_index" ColumnName="post_index" />
+          <ScalarProperty Name="kem_vidan_passport" ColumnName="kem_vidan_passport" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employee">
+      <EntityTypeMapping TypeName="post_officeModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="emp_name" ColumnName="emp_name" />
+          <ScalarProperty Name="emp_surname" ColumnName="emp_surname" />
+          <ScalarProperty Name="emp_otchestvo" ColumnName="emp_otchestvo" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="popitki_vhoda">
+      <EntityTypeMapping TypeName="post_officeModel.popitki_vhoda">
+        <MappingFragment StoreEntitySet="popitki_vhoda">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="first_popitka" ColumnName="first_popitka" />
+          <ScalarProperty Name="last_popitka" ColumnName="last_popitka" />
+          <ScalarProperty Name="isBlocked" ColumnName="isBlocked" />
+          <ScalarProperty Name="popitka_number" ColumnName="popitka_number" />
+          <ScalarProperty Name="pc_name" ColumnName="pc_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="report">
+      <EntityTypeMapping TypeName="post_officeModel.report">
+        <MappingFragment StoreEntitySet="report">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="period" ColumnName="period" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="dannie" ColumnName="dannie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="services">
+      <EntityTypeMapping TypeName="post_officeModel.services">
+        <MappingFragment StoreEntitySet="services">
+          <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="post_officeModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="post_officeModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="role_name" ColumnName="role_name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sposob_otpravki">
+      <EntityTypeMapping TypeName="post_officeModel.Sposob_otpravki">
+        <MappingFragment StoreEntitySet="Sposob_otpravki">
+          <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+          <ScalarProperty Name="opisanie" ColumnName="opisanie" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="post_otpravlenie">
+      <EntityTypeMapping TypeName="post_officeModel.post_otpravlenie">
+        <MappingFragment StoreEntitySet="post_otpravlenie">
+          <ScalarProperty Name="isFinished" ColumnName="isFinished" />
+          <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+          <ScalarProperty Name="address_dostavki" ColumnName="address_dostavki" />
+          <ScalarProperty Name="sposob_otprki_id" ColumnName="sposob_otprki_id" />
+          <ScalarProperty Name="full_price" ColumnName="full_price" />
+          <ScalarProperty Name="date_dostavki" ColumnName="date_dostavki" />
+          <ScalarProperty Name="index_dostavki" ColumnName="index_dostavki" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="service_id" ColumnName="service_id" />
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EdDelRep">
+      <EntityTypeMapping TypeName="post_officeModel.EdDelRep">
+        <MappingFragment StoreEntitySet="EdDelRep">
+          <ScalarProperty Name="deistv_name" ColumnName="deistv_name" />
+          <ScalarProperty Name="date_update" ColumnName="date_update" />
+          <ScalarProperty Name="table_name" ColumnName="table_name" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
