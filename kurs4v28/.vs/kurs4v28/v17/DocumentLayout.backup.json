@@ -42,8 +42,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -112,8 +120,8 @@
               "Title": "AdminWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml.cs",
               "RelativeDocumentMoniker": "kurs4v28\\AdminWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml.cs*",
-              "RelativeToolTip": "kurs4v28\\AdminWindow.xaml.cs*",
+              "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "kurs4v28\\AdminWindow.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-18T21:00:49.034Z",
@@ -131,10 +139,6 @@
               "WhenOpened": "2026-01-18T21:24:23.517Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "UserWindow.xaml",
@@ -145,10 +149,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-18T21:24:11.544Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
