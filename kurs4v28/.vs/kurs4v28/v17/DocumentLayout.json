@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\zastavochkawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\zastavochkawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\zastavochkawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\zastavochkawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\zastavochkawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\zastavochkawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -62,8 +62,7 @@
               "RelativeToolTip": "kurs4v28\\ZastavochkaWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T21:18:04.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T21:18:04.576Z"
             },
             {
               "$type": "Document",
@@ -74,8 +73,7 @@
               "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\ZastavochkaWindow.xaml",
               "RelativeToolTip": "kurs4v28\\ZastavochkaWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T21:17:57.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T21:17:57.695Z"
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml",
               "RelativeToolTip": "kurs4v28\\AdminWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T21:00:51.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T21:00:51.666Z"
             },
             {
               "$type": "Document",
