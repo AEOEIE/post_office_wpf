@@ -24,6 +24,7 @@ namespace kurs4v28
     /// </summary>
     public partial class AdminWindow : Window
     {
+        private string admindeliting; //удалю по рофлу добавила
         private post_officeEntities2 context => ModelDB.GetContext();
         internal employee current_emp;
         private List<employee> _employees;

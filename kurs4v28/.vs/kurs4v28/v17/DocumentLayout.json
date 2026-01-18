@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\rememberme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\rememberme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\rememberme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\createservicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -21,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\createuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\createuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Pass.cs",
+              "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\Pass.cs",
+              "RelativeDocumentMoniker": "kurs4v28\\Pass.cs",
+              "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\Pass.cs",
+              "RelativeToolTip": "kurs4v28\\Pass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T21:44:36.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\UserWindow.xaml.cs",
               "RelativeDocumentMoniker": "kurs4v28\\UserWindow.xaml.cs",
@@ -55,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RememberMe.cs",
               "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\RememberMe.cs",
               "RelativeDocumentMoniker": "kurs4v28\\RememberMe.cs",
@@ -67,23 +92,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateServiceWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\CreateServiceWindow.xaml",
-              "RelativeDocumentMoniker": "kurs4v28\\CreateServiceWindow.xaml",
-              "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\CreateServiceWindow.xaml",
-              "RelativeToolTip": "kurs4v28\\CreateServiceWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T21:24:23.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CreateUserWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\CreateUserWindow.xaml",
               "RelativeDocumentMoniker": "kurs4v28\\CreateUserWindow.xaml",
@@ -94,7 +104,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "kurs4v28\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml",
+              "RelativeToolTip": "kurs4v28\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-18T21:00:51.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "kurs4v28\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "kurs4v28\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T21:00:49.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateServiceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\CreateServiceWindow.xaml",
+              "RelativeDocumentMoniker": "kurs4v28\\CreateServiceWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\CreateServiceWindow.xaml",
+              "RelativeToolTip": "kurs4v28\\CreateServiceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-18T21:24:23.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\UserWindow.xaml",
               "RelativeDocumentMoniker": "kurs4v28\\UserWindow.xaml",
@@ -103,33 +149,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-18T21:24:11.544Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml",
-              "RelativeDocumentMoniker": "kurs4v28\\AdminWindow.xaml",
-              "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml",
-              "RelativeToolTip": "kurs4v28\\AdminWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T21:00:51.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml.cs",
-              "RelativeDocumentMoniker": "kurs4v28\\AdminWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml.cs",
-              "RelativeToolTip": "kurs4v28\\AdminWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T21:00:49.034Z"
             }
           ]
         }
