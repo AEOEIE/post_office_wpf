@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,11 +19,11 @@
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\rememberme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|c:\\users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BDA447C-2A4B-4A40-AEAA-25EC31E7C94E}|kurs4v28\\kurs4v28.csproj|solutionrelative:kurs4v28\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -42,12 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -62,8 +58,7 @@
               "RelativeToolTip": "kurs4v28\\Pass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T21:44:36.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T21:44:36.939Z"
             },
             {
               "$type": "Document",
@@ -75,8 +70,7 @@
               "RelativeToolTip": "kurs4v28\\UserWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T21:38:27.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T21:38:27.265Z"
             },
             {
               "$type": "Document",
@@ -88,8 +82,7 @@
               "RelativeToolTip": "kurs4v28\\RememberMe.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T21:38:17.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T21:38:17.095Z"
             },
             {
               "$type": "Document",
@@ -111,8 +104,7 @@
               "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml",
               "RelativeToolTip": "kurs4v28\\AdminWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T21:00:51.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T21:00:51.666Z"
             },
             {
               "$type": "Document",
@@ -122,10 +114,14 @@
               "RelativeDocumentMoniker": "kurs4v28\\AdminWindow.xaml.cs",
               "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\AdminWindow.xaml.cs",
               "RelativeToolTip": "kurs4v28\\AdminWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-18T21:00:49.034Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
@@ -147,8 +143,7 @@
               "ToolTip": "C:\\Users\\user\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\new_project_github\\test1\\kurs4v28\\kurs4v28\\UserWindow.xaml",
               "RelativeToolTip": "kurs4v28\\UserWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T21:24:11.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T21:24:11.544Z"
             }
           ]
         }

@@ -26,6 +26,7 @@ namespace kurs4v28
     {
         private string admindeliting; //удалю по рофлу добавила
         private string admindeliting1; //удалю по рофлу добавила
+        private string admindeliting2; //удалю по рофлу добавила
         private post_officeEntities2 context => ModelDB.GetContext();
         internal employee current_emp;
         private List<employee> _employees;
